@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo</title>
+<!-- bower:css -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="bower_components/ng-sortable/dist/ng-sortable.css" />
+<link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css" />
+<!-- endbower -->
+
+<!-- inject:css -->
+<link rel="stylesheet" href="/app/styles/styles.css">
+<!-- endinject -->
+</head>
+
+<body class="gradient">
+<div class="container">
+	<div class="jumbotron">
+		<h1>ToDo ToDo</h1>
+	</div>
+
+
+	<ui-view></ui-view>
+
+</div>
+
+
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/ng-sortable/dist/ng-sortable.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+<!-- endbower -->
+
+
+
+<!-- inject:js -->
+<script src="/app/module/app.js"></script>
+<script src="/app/controllers/main.controller.js"></script>
+<script src="/app/controllers/secondary.controller.js"></script>
+<script src="/app/factories/data.factory.js"></script>
+<!-- endinject -->
+</body>
+</html>
